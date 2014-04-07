@@ -62,6 +62,13 @@
 		</dependency>
 	</dependencies>
 
+	<scm>
+		<connection>scm:git:git://github.com/fiji/3D_Blob_Segmentation</connection>
+		<developerConnection>scm:git:git@github.com:fiji/3D_Blob_Segmentation</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/fiji/3D_Blob_Segmentation</url>
+	</scm>
+
 	<repositories>
 		<!-- NB: for project parent, in case of partial checkout -->
 		<repository>
