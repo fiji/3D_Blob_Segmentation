@@ -2,34 +2,35 @@
  *  Released under the General Public License in its latest version. */
 package ij3d.segmentation;
 
-import ij3d.Image3DUniverse;
-import ij3d.Content;
-import ij.gui.Toolbar;
-import ij.ImagePlus;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseEvent;
-import ij.plugin.PlugIn;
-import ij.IJ;
-import levelsets.ij.LevelSet;
-import ij.measure.Calibration;
-import javax.vecmath.Point3d;
-import javax.vecmath.Color3f;
-import javax.vecmath.Vector3d;
-import javax.vecmath.Point3f;
 import customnode.CustomTriangleMesh;
-import marchingcubes.MCTriangulator;
-import ij3d.behaviors.Picker;
-import java.util.List;
-import ij.plugin.Duplicator;
-import ij.gui.PointRoi;
-import java.util.Map;
-import ij.gui.Plot;
-import java.awt.Color;
-import java.util.Iterator;
-import ij.measure.ResultsTable;
+import ij.IJ;
+import ij.ImagePlus;
 import ij.WindowManager;
+import ij.gui.Plot;
+import ij.gui.PointRoi;
+import ij.gui.Toolbar;
+import ij.measure.Calibration;
+import ij.measure.ResultsTable;
+import ij.plugin.Duplicator;
 import ij.plugin.PlugIn;
+import ij3d.Content;
+import ij3d.Image3DUniverse;
 import ij3d.behaviors.InteractiveBehavior;
+import ij3d.behaviors.Picker;
+
+import java.awt.Color;
+import java.awt.event.MouseEvent;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
+import javax.vecmath.Color3f;
+import javax.vecmath.Point3d;
+import javax.vecmath.Point3f;
+import javax.vecmath.Vector3d;
+
+import levelsets.ij.LevelSet;
+import marchingcubes.MCTriangulator;
 
 /** A mouse listener for point-and-click segmentation and measurement
  *  of pixel clouds in an Image3DUniverse.
