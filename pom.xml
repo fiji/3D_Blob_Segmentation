@@ -18,6 +18,25 @@
 	<name>plugins/3D_Blob_Segmentation.jar</name>
 	<description></description>
 
+	<scm>
+		<connection>scm:git:git://github.com/fiji/3D_Blob_Segmentation</connection>
+		<developerConnection>scm:git:git@github.com:fiji/3D_Blob_Segmentation</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/fiji/3D_Blob_Segmentation</url>
+	</scm>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/3D_Blob_Segmentation/</url>
+	</ciManagement>
+
+	<repositories>
+		<!-- NB: for project parent -->
+		<repository>
+			<id>imagej.public</id>
+			<url>http://maven.imagej.net/content/groups/public</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<!-- Fiji dependencies -->
 		<dependency>
@@ -51,26 +70,6 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
-
-	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/3D_Blob_Segmentation/</url>
-	</ciManagement>
-
-	<scm>
-		<connection>scm:git:git://github.com/fiji/3D_Blob_Segmentation</connection>
-		<developerConnection>scm:git:git@github.com:fiji/3D_Blob_Segmentation</developerConnection>
-		<tag>HEAD</tag>
-		<url>https://github.com/fiji/3D_Blob_Segmentation</url>
-	</scm>
-
-	<repositories>
-		<!-- NB: for project parent -->
-		<repository>
-			<id>imagej.public</id>
-			<url>http://maven.imagej.net/content/groups/public</url>
-		</repository>
-	</repositories>
 
 	<build>
 		<plugins>
