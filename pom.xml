@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>3D_Blob_Segmentation</artifactId>
-	<version>3.0.0-SNAPSHOT</version>
+	<version>3.0.0</version>
 
 	<name>plugins/3D_Blob_Segmentation.jar</name>
 	<description />
@@ -58,7 +58,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/fiji/3D_Blob_Segmentation</connection>
 		<developerConnection>scm:git:git@github.com:fiji/3D_Blob_Segmentation</developerConnection>
-		<tag>HEAD</tag>
+		<tag>3D_Blob_Segmentation-3.0.0</tag>
 		<url>https://github.com/fiji/3D_Blob_Segmentation</url>
 	</scm>
 	<issueManagement>
