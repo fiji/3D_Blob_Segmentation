@@ -2,7 +2,7 @@
  * #%L
  * Fiji distribution of ImageJ for the life sciences.
  * %%
- * Copyright (C) 2011 - 2022 Fiji developers.
+ * Copyright (C) 2011 - 2024 Fiji developers.
  * %%
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as
@@ -19,8 +19,7 @@
  * <http://www.gnu.org/licenses/gpl-3.0.html>.
  * #L%
  */
-/** Albet Cardona 2010-03-18 at EMBL
- *  Released under the General Public License in its latest version. */
+
 package ij3d.segmentation;
 
 import customnode.CustomTriangleMesh;
@@ -53,8 +52,11 @@ import org.scijava.vecmath.Vector3d;
 import levelsets.ij.LevelSet;
 import marchingcubes.MCTriangulator;
 
-/** A mouse listener for point-and-click segmentation and measurement
- *  of pixel clouds in an Image3DUniverse.
+/**
+ * A mouse listener for point-and-click segmentation and measurement
+ * of pixel clouds in an Image3DUniverse.
+ *
+ * @author Albert Cardona 2010-03-18 at EMBL
  */
 public class Blob_Segmentation_in_3D implements PlugIn {
 
