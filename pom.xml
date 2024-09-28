@@ -90,8 +90,6 @@
 		<releaseProfiles>sign,deploy-to-scijava</releaseProfiles>
 
 		<_3D_Viewer.version>5.0.0</_3D_Viewer.version>
-		<jogamp-java3d.version>1.7.2</jogamp-java3d.version>
-		<org.jogamp.java3d.vecmath.version>${jogamp-java3d.version}</org.jogamp.java3d.vecmath.version>
 	</properties>
 
 	<repositories>
@@ -122,7 +120,6 @@
 		<dependency>
 			<groupId>org.jogamp.java3d</groupId>
 			<artifactId>vecmath</artifactId>
-			<version>${org.jogamp.java3d.vecmath.version}</version>
 		</dependency>
 	</dependencies>
 </project>
